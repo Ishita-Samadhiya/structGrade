@@ -18,7 +18,7 @@ var opt: Int = 0 // Stores user's menu choice
 
 // Reading CSV file
 do {
-    let stream = InputStream(fileAtPath: "/Users/studentam/Desktop/Apps/grade/grade/grade/grades.csv")
+    let stream = InputStream(fileAtPath: "/Users/studentam/Desktop/Apps/structGrade/Grades/Grades/grades.csv")
     let csv = try CSVReader(stream: stream!)
     while let row = csv.next() {
         // Adding student name to arrays
